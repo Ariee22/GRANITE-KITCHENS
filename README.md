@@ -1,2 +1,2 @@
 
-https://ariee22.github.io/Ari-D-signs/
+https://ariee22.github.io/Ari-D-esigns/
