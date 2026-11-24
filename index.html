@@ -1,558 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>GRANITE COUNTERTOP AND KITCHENS | Domboshava</title>
+<title>Granite Countertops & Kitchens | Domboshava</title>
 
-  <meta
-    name="description"
-    content="GRANITE COUNTERTOP AND KITCHENS in Domboshava. Quality granite countertops, custom kitchens and tombstones. Request a quotation on WhatsApp."
-  >
+<meta name="description" content="Granite countertops, custom kitchen cupboards and tombstones in Domboshava. Contact us for a quotation.">
 
-  <meta name="theme-color" content="#111111">
+<style>
 
-  <link rel="stylesheet" href="style.css">
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f6f2;
+    color: #242923;
+}
+
+header {
+    background: #26382d;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    color: #d9dfd8;
+    margin: 8px 0 0;
+}
+
+nav {
+    background: #18251d;
+    padding: 14px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #c7a77a;
+}
+
+.hero {
+    background: linear-gradient(
+        rgba(28, 42, 33, 0.85),
+        rgba(28, 42, 33, 0.85)
+    );
+
+    color: white;
+    text-align: center;
+    padding: 75px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.7;
+    color: #e2e7e2;
+}
+
+.button {
+    display: inline-block;
+    background: #b99a70;
+    color: white;
+    padding: 14px 22px;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #96764e;
+}
+
+section {
+    padding: 45px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    color: #26382d;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 28px;
+}
+
+.section-title p {
+    color: #666;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card h3 {
+    color: #344b3b;
+}
+
+.card p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.service-image {
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    background: #e4e3dc;
+}
+
+.granite {
+    background: #dedbd3;
+}
+
+.kitchen {
+    background: #d8e0d7;
+}
+
+.tombstone {
+    background: #d5d5d5;
+}
+
+.about {
+    background: #e9e9e2;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px;
+    line-height: 1.8;
+}
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 650px;
+    margin: auto;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 13px;
+    margin: 9px 0;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+
+form button {
+    width: 100%;
+}
+
+.contact {
+    text-align: center;
+    line-height: 1.9;
+}
+
+.contact a {
+    color: #344b3b;
+    font-weight: bold;
+}
+
+footer {
+    background: #26382d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    line-height: 1.7;
+}
+
+footer a {
+    color: #d5bd98;
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 18px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 20;
+}
+
+@media (max-width: 600px) {
+
+    .hero h2 {
+        font-size: 27px;
+    }
+
+    nav a {
+        font-size: 12px;
+        margin: 5px;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+
+}
+
+</style>
 </head>
 
 <body>
 
-  <!-- NAVIGATION -->
-  <header class="header">
-    <div class="container nav">
+<header>
 
-      <a href="#" class="logo">
-        GRANITE<span>&</span>KITCHENS
-      </a>
+<h1>GRANITE COUNTERTOPS & KITCHENS</h1>
 
-      <nav>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#gallery">Our Work</a>
-        <a href="#contact">Contact</a>
-      </nav>
+<p>Quality Craftsmanship • Beautiful Designs • Reliable Service</p>
 
-      <a
-        href="https://wa.me/263775188689"
-        class="nav-button"
-        target="_blank"
-      >
-        WhatsApp Us
-      </a>
+</header>
 
-    </div>
-  </header>
+<nav>
 
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#quote">Get a Quote</a>
+<a href="#contact">Contact</a>
 
-  <!-- HERO -->
-  <main>
+</nav>
 
-    <section class="hero">
+<!-- HOME -->
 
-      <div class="hero-overlay"></div>
+<div class="hero" id="home">
 
-      <div class="container hero-content">
+<h2>Transform Your Space</h2>
 
-        <p class="eyebrow">
-          GRANITE • KITCHENS • TOMBSTONES
-        </p>
+<p>
+We specialize in granite countertops, custom kitchen cupboards
+and tombstones. We are committed to quality workmanship
+and helping our customers bring their ideas to life.
+</p>
 
-        <h1>
-          Quality craftsmanship
-          <span>built to last.</span>
-        </h1>
+<a href="#services" class="button">Explore Our Services</a>
 
-        <p class="hero-text">
-          Professional granite countertops, custom kitchen cupboards
-          and carefully crafted tombstones in Domboshava.
-        </p>
+<a href="#quote" class="button">Request a Quote</a>
 
-        <div class="hero-buttons">
+</div>
 
-          <a
-            href="https://wa.me/263775188689?text=Hello%20GRANITE%20COUNTERTOP%20AND%20KITCHENS%2C%20I%20would%20like%20to%20request%20a%20quotation."
-            class="button primary"
-            target="_blank"
-          >
-            Request a Quote
-          </a>
+<!-- SERVICES -->
 
-          <a href="#services" class="button secondary">
-            View Our Services
-          </a>
+<section id="services">
 
-        </div>
+<div class="section-title">
 
-      </div>
+<h2>Our Services</h2>
 
-    </section>
+<p>Discover the services we offer.</p>
 
+</div>
 
-    <!-- SERVICES -->
-    <section id="services" class="section">
+<div class="services">
 
-      <div class="container">
+<!-- GRANITE -->
 
-        <div class="section-heading">
+<div class="card">
 
-          <p class="eyebrow">
-            WHAT WE DO
-          </p>
+<div class="service-image granite">
+🪨
+</div>
 
-          <h2>
-            Our Services
-          </h2>
+<div class="card-content">
 
-          <p>
-            We provide quality stone and kitchen solutions with
-            professional workmanship and attention to detail.
-          </p>
+<h3>Granite Countertops</h3>
 
-        </div>
+<p>
+Granite countertops for kitchens and other spaces.
+Choose your preferred design, finish and measurements.
+</p>
 
+<ul>
+<li>Granite installation</li>
+<li>Countertop measurements</li>
+<li>Custom designs</li>
+<li>Finishing</li>
+</ul>
 
-        <div class="services-grid">
+</div>
+</div>
 
-          <article class="service-card">
+<!-- KITCHENS -->
 
-            <div class="service-icon">
-              01
-            </div>
+<div class="card">
 
-            <h3>
-              Granite Countertops
-            </h3>
+<div class="service-image kitchen">
+🏠
+</div>
 
-            <p>
-              Quality granite countertops for kitchens, bathrooms,
-              counters and other spaces, including professional
-              installation.
-            </p>
+<div class="card-content">
 
-            <a href="#contact">
-              Request a quotation →
-            </a>
+<h3>Kitchen Cupboards</h3>
 
-          </article>
+<p>
+Custom kitchen cupboards designed to make your kitchen
+beautiful, functional and organized.
+</p>
 
+<ul>
+<li>Custom cupboard designs</li>
+<li>Kitchen fittings</li>
+<li>Modern styles</li>
+<li>Kitchen renovations</li>
+</ul>
 
-          <article class="service-card">
+</div>
+</div>
 
-            <div class="service-icon">
-              02
-            </div>
+<!-- TOMBSTONES -->
 
-            <h3>
-              Custom Kitchens
-            </h3>
+<div class="card">
 
-            <p>
-              Custom kitchen cupboards and cabinetry designed to
-              make your kitchen practical, modern and beautiful.
-            </p>
+<div class="service-image tombstone">
+🪷
+</div>
 
-            <a href="#contact">
-              Plan your kitchen →
-            </a>
+<div class="card-content">
 
-          </article>
+<h3>Tombstones & Memorials</h3>
 
+<p>
+Memorials made with care and attention to detail.
+Customers can enquire about designs and customization.
+</p>
 
-          <article class="service-card">
+<ul>
+<li>Custom memorial designs</li>
+<li>Stone options</li>
+<li>Engraving enquiries</li>
+<li>Personalized requests</li>
+</ul>
 
-            <div class="service-icon">
-              03
-            </div>
+</div>
+</div>
 
-            <h3>
-              Tombstones
-            </h3>
+</div>
 
-            <p>
-              Carefully crafted granite tombstones and memorial
-              work with professional finishing and attention to detail.
-            </p>
+</section>
 
-            <a href="#contact">
-              Discuss a memorial →
-            </a>
+<!-- ABOUT -->
 
-          </article>
+<section id="about">
 
-        </div>
+<div class="section-title">
 
-      </div>
+<h2>About Our Business</h2>
 
-    </section>
+</div>
 
+<div class="about">
 
-    <!-- ABOUT -->
-    <section id="about" class="about section">
+<p>
+We are a business based in <strong>Domboshava</strong>,
+providing granite countertops, kitchen cupboards
+and tombstone services.
+</p>
 
-      <div class="container about-grid">
+<p>
+Our aim is to provide quality workmanship,
+professional service and designs that suit
+our customers' needs.
+</p>
 
-        <div class="about-image">
+<p>
+Contact us to discuss your project,
+request measurements or get a quotation.
+</p>
 
-          <div class="image-placeholder">
-            <span>
-              OUR WORK
-            </span>
-          </div>
+</div>
 
-        </div>
+</section>
 
+<!-- QUOTE FORM -->
 
-        <div class="about-content">
+<section id="quote">
 
-          <p class="eyebrow">
-            ABOUT US
-          </p>
+<div class="section-title">
 
-          <h2>
-            Built with care.
-            Made to last.
-          </h2>
+<h2>Request a Quotation</h2>
 
-          <p>
-            GRANITE COUNTERTOP AND KITCHENS is based in
-            Domboshava and provides quality granite, kitchen
-            and tombstone services.
-          </p>
+<p>Tell us what you need and send your enquiry directly to WhatsApp.</p>
 
-          <p>
-            Our goal is simple: deliver reliable workmanship,
-            quality finishes and solutions that our customers
-            can be proud of.
-          </p>
+</div>
 
+<form id="quoteForm">
 
-          <div class="features">
+<input
+type="text"
+id="customerName"
+placeholder="Your full name"
+required
+>
 
-            <div>
-              <strong>✓</strong>
-              <span>
-                Quality workmanship
-              </span>
-            </div>
+<input
+type="tel"
+id="customerPhone"
+placeholder="Your phone number"
+required
+>
 
-            <div>
-              <strong>✓</strong>
-              <span>
-                Custom designs
-              </span>
-            </div>
+<input
+type="text"
+id="customerLocation"
+placeholder="Your location"
+required
+>
 
-            <div>
-              <strong>✓</strong>
-              <span>
-                Professional installation
-              </span>
-            </div>
+<select id="serviceType" required>
 
-            <div>
-              <strong>✓</strong>
-              <span>
-                WhatsApp quotations
-              </span>
-            </div>
+<option value="">Choose a service</option>
 
-          </div>
+<option>Granite Countertops</option>
 
-        </div>
+<option>Kitchen Cupboards</option>
 
-      </div>
+<option>Tombstones & Memorials</option>
 
-    </section>
+<option>Other</option>
 
+</select>
 
-    <!-- GALLERY -->
-    <section id="gallery" class="section gallery-section">
+<input
+type="text"
+id="measurements"
+placeholder="Approximate measurements (optional)"
+>
 
-      <div class="container">
+<textarea
+id="description"
+placeholder="Describe what you want, your preferred design, materials or other details..."
+required
+></textarea>
 
-        <div class="section-heading">
+<button type="submit" class="button">
+Send Quote Request via WhatsApp
+</button>
 
-          <p class="eyebrow">
-            OUR WORK
-          </p>
+</form>
 
-          <h2>
-            Recent Projects
-          </h2>
+</section>
 
-          <p>
-            Our project gallery will be updated with photographs
-            of our actual granite, kitchen and tombstone work.
-          </p>
+<!-- CONTACT -->
 
-        </div>
+<section id="contact">
 
+<div class="section-title">
 
-        <div class="gallery">
+<h2>Contact Us</h2>
 
-          <div class="gallery-item">
-            <span>
-              Granite Countertops
-            </span>
-          </div>
+</div>
 
-          <div class="gallery-item">
-            <span>
-              Custom Kitchens
-            </span>
-          </div>
+<div class="contact">
 
-          <div class="gallery-item">
-            <span>
-              Tombstones
-            </span>
-          </div>
+<p><strong>Location:</strong> Domboshava, Zimbabwe</p>
 
-          <div class="gallery-item">
-            <span>
-              Kitchen Installation
-            </span>
-          </div>
+<p><strong>Phone:</strong>
+<a href="tel:+263775188689">+263 775 188 689</a>
+</p>
 
-          <div class="gallery-item">
-            <span>
-              Granite Work
-            </span>
-          </div>
+<p><strong>WhatsApp:</strong>
+<a href="https://wa.me/263775188689">
+Chat with us
+</a>
+</p>
 
-          <div class="gallery-item">
-            <span>
-              Memorial Work
-            </span>
-          </div>
+<p><strong>Email:</strong>
+<a href="mailto:mudzamirifabio@gmail.com">
+mudzamirifabio@gmail.com
+</a>
+</p>
 
-        </div>
+<a class="button"
+href="https://wa.me/263775188689?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20your%20services.">
+Contact Us on WhatsApp
+</a>
 
-      </div>
+</div>
 
-    </section>
+</section>
 
+<footer>
 
-    <!-- CALL TO ACTION -->
-    <section class="cta">
+<p>GRANITE COUNTERTOPS & KITCHENS</p>
 
-      <div class="container cta-content">
+<p>Granite • Kitchen Cupboards • Tombstones</p>
 
-        <div>
+<p>Domboshava, Zimbabwe</p>
 
-          <p class="eyebrow">
-            START YOUR PROJECT
-          </p>
+<p>Phone: +263 775 188 689</p>
 
-          <h2>
-            Need a quotation?
-          </h2>
+<p>Website created by Ariee Designs</p>
 
-          <p>
-            Send us your requirements on WhatsApp and
-            let's discuss your project.
-          </p>
+</footer>
 
-        </div>
+<!-- FLOATING WHATSAPP BUTTON -->
 
+<a
+class="whatsapp-float"
+href="https://wa.me/263775188689?text=Hello%2C%20I%20am%20interested%20in%20your%20services."
+target="_blank">
 
-        <a
-          href="https://wa.me/263775188689?text=Hello%20GRANITE%20COUNTERTOP%20AND%20KITCHENS%2C%20I%20would%20like%20to%20request%20a%20quotation."
-          class="button primary"
-          target="_blank"
-        >
-          WhatsApp for a Quote
-        </a>
+WhatsApp
 
-      </div>
+</a>
 
-    </section>
+<script>
 
+document.getElementById("quoteForm")
+.addEventListener("submit", function(event) {
 
-    <!-- CONTACT -->
-    <section id="contact" class="section contact-section">
+    event.preventDefault();
 
-      <div class="container contact-grid">
+    const name =
+        document.getElementById("customerName").value;
 
-        <div>
+    const phone =
+        document.getElementById("customerPhone").value;
 
-          <p class="eyebrow">
-            CONTACT US
-          </p>
+    const location =
+        document.getElementById("customerLocation").value;
 
-          <h2>
-            Let's discuss your project.
-          </h2>
+    const service =
+        document.getElementById("serviceType").value;
 
-          <p>
-            Contact GRANITE COUNTERTOP AND KITCHENS for
-            granite countertops, kitchens and tombstones.
-          </p>
+    const measurements =
+        document.getElementById("measurements").value;
 
+    const description =
+        document.getElementById("description").value;
 
-          <div class="contact-details">
+    const message =
+        "NEW QUOTATION REQUEST\n\n" +
+        "Name: " + name + "\n" +
+        "Customer phone: " + phone + "\n" +
+        "Location: " + location + "\n" +
+        "Service: " + service + "\n" +
+        "Measurements: " + (measurements || "Not provided") + "\n" +
+        "Project details: " + description;
 
-            <div>
-              <span>
-                WHATSAPP
-              </span>
+    const whatsappURL =
+        "https://wa.me/263775188689?text=" +
+        encodeURIComponent(message);
 
-              <a
-                href="https://wa.me/263775188689"
-                target="_blank"
-              >
-                +263 775 188 689
-              </a>
-            </div>
+    window.open(whatsappURL, "_blank");
 
+});
 
-            <div>
-              <span>
-                LOCATION
-              </span>
-
-              <p>
-                Domboshava, Zimbabwe
-              </p>
-            </div>
-
-
-            <div>
-              <span>
-                EMAIL
-              </span>
-
-              <a href="mailto:mudzamirifabio@gmail.com">
-                mudzamirifabio@gmail.com
-              </a>
-            </div>
-
-          </div>
-
-        </div>
-
-
-        <!-- QUOTATION FORM -->
-        <form class="contact-form" id="contactForm">
-
-          <label for="name">
-            Your Name
-          </label>
-
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Your name"
-            required
-          >
-
-
-          <label for="phone">
-            Your Phone Number
-          </label>
-
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            placeholder="Your phone number"
-            required
-          >
-
-
-          <label for="service">
-            What do you need?
-          </label>
-
-          <select
-            id="service"
-            name="service"
-          >
-
-            <option value="Granite Countertops">
-              Granite Countertops
-            </option>
-
-            <option value="Custom Kitchen">
-              Custom Kitchen
-            </option>
-
-            <option value="Tombstone">
-              Tombstone
-            </option>
-
-            <option value="Other">
-              Other
-            </option>
-
-          </select>
-
-
-          <label for="message">
-            Tell us about your project
-          </label>
-
-          <textarea
-            id="message"
-            name="message"
-            rows="5"
-            placeholder="Tell us what you need..."
-          ></textarea>
-
-
-          <button
-            type="submit"
-            class="button primary"
-          >
-            Send Quote Request
-          </button>
-
-
-          <p
-            id="formMessage"
-            class="form-message"
-          ></p>
-
-        </form>
-
-      </div>
-
-    </section>
-
-  </main>
-
-
-  <!-- FOOTER -->
-  <footer class="footer">
-
-    <div class="container footer-content">
-
-      <div>
-
-        <div class="logo">
-          GRANITE<span>&</span>KITCHENS
-        </div>
-
-        <p>
-          Granite • Kitchens • Tombstones
-        </p>
-
-      </div>
-
-
-      <p>
-        © 2026 GRANITE COUNTERTOP AND KITCHENS.
-        All rights reserved.
-      </p>
-
-    </div>
-
-  </footer>
-
-
-  <script src="script.js"></script>
+</script>
 
 </body>
-  </html>
+</html>
